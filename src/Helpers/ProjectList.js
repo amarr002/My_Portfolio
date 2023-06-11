@@ -1,39 +1,41 @@
 import Proj1 from "../assets/proj1.jpg";
 import Proj2 from "../assets/proj2.jpg";
-import Proj3 from "../assets/proj3.webp";
+import Proj3_t from "../assets/proj3_t.PNG";
 import Proj4 from "../assets/proj4.webp";
-import Proj5 from "../assets/proj5.jpg";
-import Proj6 from "../assets/proj6.png";
+import Proj5_w from "../assets/proj5_w.jpg";
+import Proj6_m from "../assets/proj6_m.PNG";
 
 export const ProjectList = [
+ 
   {
-    name: "Dijkstra Algorithm Visualizer",
-    image: Proj1,
-    skills: "JavaScript,HTML,CSS",
-  },
-  {
-    name: "Ecommerce Website",
+    name: "College Interaction Portal",
     image: Proj2,
-    skills: "React,Node.js,MongoDB",
+    skills: "React,Firebase,MaterialUI",
   },
+  
   {
-    name: "Spotify Clone",
-    image: Proj3,
-    skills: "React,Node.js,MongoDB,SpotifyAPI",
-  },
-  {
-    name: "Social Media Website",
+    name: "Cryptonic User Interface",
     image: Proj4,
-    skills: "React,Node.js,MySQL,GraphQL",
+    skills: "React,Firebase,Cipher Techniques",
   },
   {
-    name: "Dashboard Visualizer",
-    image: Proj5,
+    name: "Flight trip Planner",
+    image: Proj1,
+    skills: "C++",
+  },
+  {
+    name: "Tesla Clone",
+    image: Proj3_t,
+    skills: "React,MaterialUI",
+  },
+  {
+    name: "Windows 11 Clone",
+    image: Proj5_w,
     skills: "JavaScript,HTML,CSS",
   },
   {
-    name: "Mobile Game",
-    image: Proj6,
-    skills: "React Native,JavaScript,HTML,CSS",
+    name: "Music Band",
+    image: Proj6_m,
+    skills: "JavaScript,HTML,CSS",
   },
 ];
